@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{ECDFB4A2-9C1B-48F0-89C3-EFD32368761B}</ProjectGuid>
+    <ProjectGuid>{7829AB41-78B9-4259-85C0-AA94F9A40401}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Project1</RootNamespace>
+    <RootNamespace>Seminar11</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
